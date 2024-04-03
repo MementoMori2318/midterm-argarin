@@ -187,3 +187,59 @@ Command Example:
 hydra -l username -P /path/to/passwords.txt mysql://target_ip
 ```
 This command launches a brute-force attack against a MySQL server running on the target IP address, using a specified username and a list of passwords from a file.
+
+
+# Comprehensive Guide to Password Attacks with Kali Linux
+
+## Introduction
+Password attacks are a common method used by attackers to gain unauthorized access to systems, accounts, or resources by exploiting weak or stolen passwords. Kali Linux, a popular distribution for penetration testing and ethical hacking, offers a variety of tools and techniques specifically tailored for password attacks.
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting password attacks.
+
+## Tools and Techniques
+
+### 1. Hydra
+[Hydra](https://github.com/vanhauser-thc/thc-hydra) is a powerful and fast password-cracking tool that supports various protocols, including SSH, FTP, HTTP, MySQL, and more. It can perform brute-force attacks, dictionary attacks, and hybrid attacks to crack passwords.
+
+#### Command Example:
+```bash
+hydra -l username -P /path/to/passwords.txt ssh://target_ip
+```
+This command launches a brute-force attack against an SSH server running on the target IP address, using a specified username and a list of passwords from a file.
+
+2. John the Ripper
+John the Ripper is a well-known password-cracking tool that can crack password hashes using various attack methods, including brute force, dictionary, and rainbow table attacks. It supports a wide range of hash formats and algorithms.
+
+Command Example:
+````bash
+john --format=md5 /path/to/passwords.txt
+````
+This command cracks password hashes stored in the specified file using the MD5 hash algorithm.
+
+3. Hashcat
+Hashcat is a fast and advanced password recovery utility that supports cracking password hashes using GPU acceleration. It can handle various hash types and attack modes, including brute force, dictionary, and mask attacks.
+
+Command Example:
+```bash
+hashcat -m 0 /path/to/hashes.txt /path/to/wordlist.txt
+````
+This command cracks password hashes stored in the specified file using the brute-force mode with a wordlist.
+
+4. THC-Hydra
+THC-Hydra is a parallelized login cracker that supports numerous protocols, including FTP, HTTP, IMAP, LDAP, MySQL, PostgreSQL, SMB, SMTP, and more. It can perform dictionary attacks, brute-force attacks, and hybrid attacks.
+
+Command Example:
+```bash
+hydra -L /path/to/usernames.txt -P /path/to/passwords.txt ftp://target_ip
+```
+This command launches a dictionary attack against an FTP server running on the target IP address, using a specified list of usernames and passwords.
+
+5. Crowbar
+Crowbar is a brute-force attack tool that supports various protocols, including SSH, RDP, VNC, and more. It can perform both dictionary and brute-force attacks and has a modular design for easy integration with other tools.
+
+Command Example:
+```bash
+crowbar -b ssh -s target_ip/32 -u username -C /path/to/passwords.txt
+```
+This command launches a brute-force attack against an SSH server running on the target IP address, using a specified username and a list of passwords.
+
