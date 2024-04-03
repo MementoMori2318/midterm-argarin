@@ -1,4 +1,4 @@
-S# Information Gathering from Kali Linux
+# Information Gathering from Kali Linux
 
 ## Introduction
 Information gathering is a crucial phase in any cybersecurity assessment or penetration testing process. Kali Linux provides a wide range of tools and utilities specifically designed for reconnaissance and gathering information about targets. In this guide, we'll explore some of the commonly used tools and techniques for information gathering in Kali Linux.
@@ -34,7 +34,7 @@ theharvester -d example.com -b google
 nmap -sS -A target_ip
 ```
 
-# Comprehensive Guide to Vulnerability Analysis with Kali Linux
+
 
 ## Introduction
 Vulnerability analysis is a crucial aspect of cybersecurity, involving the identification, assessment, and mitigation of vulnerabilities within systems and networks. Kali Linux, a widely used distribution for penetration testing and ethical hacking, offers a variety of tools and techniques specifically tailored for vulnerability assessment.
