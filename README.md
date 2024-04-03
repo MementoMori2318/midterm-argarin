@@ -134,3 +134,4 @@ Command Example:
 dirb target_url
 ```
 This command initiates a directory brute-force scan on the target URL, searching for existing directories and files.
+
