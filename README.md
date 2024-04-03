@@ -251,7 +251,7 @@ This command launches a brute-force attack against an SSH server running on the 
 
 ## Introduction
 Wireless attacks involve exploiting vulnerabilities in wireless networks to gain unauthorized access, intercept data, or disrupt network operations. Kali Linux, a popular distribution for penetration testing and ethical hacking, provides a range of tools and techniques specifically tailored for wireless attacks.
-[Tutorial for Wireless Attacks]([https://www.youtube.com/watch?v=fPHkO6T_g8A](https://www.youtube.com/watch?v=YYltUviRAWg))
+[Tutorial for Wireless Attacks](https://www.youtube.com/watch?v=YYltUviRAWg)
 
 In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting wireless attacks.
 
