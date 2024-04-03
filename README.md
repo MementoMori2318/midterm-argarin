@@ -81,7 +81,6 @@ nmap --script vuln target_ip
 This command uses Nmap's scripting engine to scan for known vulnerabilities on the target IP address.
 # Comprehensive Guide to Web Application Analysis with Kali Linux
 
-# Comprehensive Guide to Web Application Analysis with Kali Linux
 
 ## Introduction
 Web application analysis is a critical component of cybersecurity assessments, focusing on identifying and mitigating vulnerabilities within web applications. Kali Linux, a renowned distribution for penetration testing and ethical hacking, offers a range of tools and techniques specifically tailored for web application analysis.
