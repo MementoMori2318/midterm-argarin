@@ -2,7 +2,7 @@
 
 ## Introduction
 Information gathering is a crucial phase in any cybersecurity assessment or penetration testing process. Kali Linux provides a wide range of tools and utilities specifically designed for reconnaissance and gathering information about targets. In this guide, we'll explore some of the commonly used tools and techniques for information gathering in Kali Linux.
-
+[Tutorial for Information Gathering!](https://www.youtube.com/watch?v=mCbz92LdEfY&list=PLAPAmYW1B_lYr8EYB1aT95y-VwEH_dph1)
 ## Tools and Techniques
 
 ### 1. Nmap
@@ -38,6 +38,7 @@ nmap -sS -A target_ip
 
 ## Introduction
 Vulnerability analysis is a crucial aspect of cybersecurity, involving the identification, assessment, and mitigation of vulnerabilities within systems and networks. Kali Linux, a widely used distribution for penetration testing and ethical hacking, offers a variety of tools and techniques specifically tailored for vulnerability assessment.
+[Tutorial for Vulnerability Analysis!](https://www.youtube.com/watch?v=zNvB3GVdQGo)
 
 In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting vulnerability analysis.
 
@@ -84,6 +85,7 @@ This command uses Nmap's scripting engine to scan for known vulnerabilities on t
 
 ## Introduction
 Web application analysis is a critical component of cybersecurity assessments, focusing on identifying and mitigating vulnerabilities within web applications. Kali Linux, a renowned distribution for penetration testing and ethical hacking, offers a range of tools and techniques specifically tailored for web application analysis.
+[Tutorial for Web Application Analysis!](https://www.youtube.com/watch?v=4tePZ45Jdvs)
 
 In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting web application analysis.
 
@@ -138,6 +140,7 @@ This command initiates a directory brute-force scan on the target URL, searching
 
 ## Introduction
 Database assessment is a critical aspect of cybersecurity, focusing on identifying vulnerabilities and security weaknesses within databases. Kali Linux, a widely used distribution for penetration testing and ethical hacking, offers a variety of tools and techniques specifically tailored for database assessment.
+[Tutorial for Database Assessment](https://www.youtube.com/watch?v=7IHyjNNUue8)
 
 In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting database assessment.
 
@@ -193,6 +196,7 @@ This command launches a brute-force attack against a MySQL server running on the
 
 ## Introduction
 Password attacks are a common method used by attackers to gain unauthorized access to systems, accounts, or resources by exploiting weak or stolen passwords. Kali Linux, a popular distribution for penetration testing and ethical hacking, offers a variety of tools and techniques specifically tailored for password attacks.
+[Tutorial for Password Attacks](https://www.youtube.com/watch?v=fPHkO6T_g8A)
 
 In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting password attacks.
 
@@ -247,6 +251,7 @@ This command launches a brute-force attack against an SSH server running on the 
 
 ## Introduction
 Wireless attacks involve exploiting vulnerabilities in wireless networks to gain unauthorized access, intercept data, or disrupt network operations. Kali Linux, a popular distribution for penetration testing and ethical hacking, provides a range of tools and techniques specifically tailored for wireless attacks.
+[Tutorial for Wireless Attacks]([https://www.youtube.com/watch?v=fPHkO6T_g8A](https://www.youtube.com/watch?v=YYltUviRAWg))
 
 In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting wireless attacks.
 
