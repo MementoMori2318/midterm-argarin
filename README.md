@@ -28,3 +28,20 @@ In this guide, we'll explore the tools and methodologies available in Kali Linux
 #### Command Example:
 ```bash
 openvas-setup
+```
+# Comprehensive Guide to Web Application Analysis with Kali Linux
+
+## Introduction
+Web application analysis is a critical component of cybersecurity assessments, focusing on identifying and mitigating vulnerabilities within web applications. Kali Linux, a renowned distribution for penetration testing and ethical hacking, offers a range of tools and techniques specifically tailored for web application analysis.
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting web application analysis.
+
+## Tools and Techniques
+
+### 1. Burp Suite
+[Burp Suite](https://portswigger.net/burp) is a comprehensive platform for web application security testing. It includes various tools such as a web proxy, scanner, intruder, repeater, sequencer, and decoder for analyzing web applications' security.
+
+#### Command Example:
+```bash
+burpsuite
+```
