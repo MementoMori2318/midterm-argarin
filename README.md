@@ -34,7 +34,7 @@ theharvester -d example.com -b google
 nmap -sS -A target_ip
 ```
 
-
+# Comprehensive Guide to Vulnerability Analysis with Kali Linux
 
 ## Introduction
 Vulnerability analysis is a crucial aspect of cybersecurity, involving the identification, assessment, and mitigation of vulnerabilities within systems and networks. Kali Linux, a widely used distribution for penetration testing and ethical hacking, offers a variety of tools and techniques specifically tailored for vulnerability assessment.
