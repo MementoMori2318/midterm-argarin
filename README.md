@@ -1,4 +1,4 @@
-# Information Gathering from Kali Linux
+S# Information Gathering from Kali Linux
 
 ## Introduction
 Information gathering is a crucial phase in any cybersecurity assessment or penetration testing process. Kali Linux provides a wide range of tools and utilities specifically designed for reconnaissance and gathering information about targets. In this guide, we'll explore some of the commonly used tools and techniques for information gathering in Kali Linux.
@@ -50,6 +50,37 @@ In this guide, we'll explore the tools and methodologies available in Kali Linux
 ```bash
 openvas-setup
 ```
+2. Nikto
+Nikto is an open-source web server scanner that performs comprehensive tests against web servers for multiple vulnerabilities, including outdated software, misconfigurations, and known security issues.
+
+Command Example:
+```bash
+nikto -h target_url
+```
+This command scans the target URL for common vulnerabilities and produces a detailed report.
+
+3. Nessus
+Nessus is a widely-used vulnerability scanner that identifies vulnerabilities, misconfigurations, and malware in networks, systems, and applications. It provides detailed reports and remediation guidance.
+
+4. Metasploit
+Metasploit is a powerful penetration testing framework that includes a variety of tools for vulnerability analysis, exploitation, and post-exploitation activities.
+
+Command Example:
+```bash
+msfconsole
+```
+Once inside the Metasploit console, you can use auxiliary modules (auxiliary/scanner/) for vulnerability scanning and exploitation.
+
+5. Nmap Scripting Engine (NSE)
+Nmap also features a scripting engine that allows users to write custom scripts for vulnerability detection and exploitation. NSE scripts can perform various tasks, including version detection, vulnerability scanning, and network discovery.
+
+Command Example:
+```bash
+nmap --script vuln target_ip
+```
+This command uses Nmap's scripting engine to scan for known vulnerabilities on the target IP address.
+# Comprehensive Guide to Web Application Analysis with Kali Linux
+
 # Comprehensive Guide to Web Application Analysis with Kali Linux
 
 ## Introduction
@@ -66,3 +97,40 @@ In this guide, we'll explore the tools and methodologies available in Kali Linux
 ```bash
 burpsuite
 ```
+This command launches the Burp Suite graphical interface, allowing users to perform various web application security testing tasks.
+
+2. OWASP ZAP
+OWASP ZAP (Zed Attack Proxy) is an open-source web application security scanner. It is designed to automatically find security vulnerabilities in web applications during the development and testing phases.
+
+Command Example:
+```bash
+zaproxy
+```
+This command starts the OWASP ZAP graphical user interface (GUI), enabling users to initiate scans and analyze the results.
+
+3. Nikto
+Nikto is an open-source web server scanner that performs comprehensive tests against web servers for multiple vulnerabilities, including outdated software, misconfigurations, and known security issues.
+
+Command Example:
+```bash
+nikto -h target_url
+```
+This command scans the target URL for common vulnerabilities and produces a detailed report.
+
+4. wpscan
+wpscan is a black box WordPress vulnerability scanner. It is used to enumerate WordPress installations and perform vulnerability scanning.
+
+Command Example:
+```bash
+wpscan --url target_url
+```
+This command scans the WordPress installation at the specified URL for vulnerabilities and displays the results.
+
+5. Dirb
+Dirb is a web content scanner used for enumerating directories and files on web servers. It is useful for discovering hidden resources and potential attack vectors.
+
+Command Example:
+```bash
+dirb target_url
+```
+This command initiates a directory brute-force scan on the target URL, searching for existing directories and files.
