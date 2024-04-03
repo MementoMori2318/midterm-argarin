@@ -12,6 +12,27 @@ Information gathering is a crucial phase in any cybersecurity assessment or pene
 ```bash
 nmap -sS -A target_ip
 ```
+### 2. Recon-ng
+[Recon-ng](https://github.com/lanmaster53/recon-ng)  is a full-featured web reconnaissance framework written in Python. It is designed for web-based open-source intelligence (OSINT) gathering.
+
+#### Command Example:
+```bash
+recon-ng
+```
+### 3. TheHarvester
+[TheHarvester](https://github.com/laramies/theHarvester) is a tool for gathering email accounts, user names, and hostnames/subdomains from different public sources like search engines and PGP key servers.
+
+#### Command Example:
+```bash
+theharvester -d example.com -b google
+```
+### 4. Metasploit
+[Nmap](https://nmap.org/) is a powerful network scanning tool used for discovering hosts and services on a computer network. It allows for port scanning, service version detection, and operating system detection.
+
+#### Command Example:
+```bash
+nmap -sS -A target_ip
+```
 
 # Comprehensive Guide to Vulnerability Analysis with Kali Linux
 
