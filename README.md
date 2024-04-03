@@ -11,7 +11,7 @@ Information gathering is a crucial phase in any cybersecurity assessment or pene
 #### Command Example:
 ```bash
 nmap -sS -A target_ip
-
+```
 
 # Comprehensive Guide to Vulnerability Analysis with Kali Linux
 
