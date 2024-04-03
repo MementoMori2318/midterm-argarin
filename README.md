@@ -243,3 +243,56 @@ crowbar -b ssh -s target_ip/32 -u username -C /path/to/passwords.txt
 ```
 This command launches a brute-force attack against an SSH server running on the target IP address, using a specified username and a list of passwords.
 
+# Comprehensive Guide to Wireless Attacks with Kali Linux
+
+## Introduction
+Wireless attacks involve exploiting vulnerabilities in wireless networks to gain unauthorized access, intercept data, or disrupt network operations. Kali Linux, a popular distribution for penetration testing and ethical hacking, provides a range of tools and techniques specifically tailored for wireless attacks.
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting wireless attacks.
+
+## Tools and Techniques
+
+### 1. Aircrack-ng
+[Aircrack-ng](https://www.aircrack-ng.org/) is a powerful suite of tools for auditing wireless networks. It includes tools for packet capturing, packet injection, WEP and WPA/WPA2-PSK cracking, and more.
+
+#### Command Example:
+```bash
+airmon-ng start wlan0
+```
+This command puts the wireless interface wlan0 into monitor mode, allowing it to capture wireless traffic.
+
+2. Reaver
+Reaver is a tool for brute-forcing WPS (Wi-Fi Protected Setup) PINs to recover WPA/WPA2 passphrases. It exploits a vulnerability in the WPS protocol to gain access to the wireless network.
+
+Command Example:
+```bash
+reaver -i wlan0mon -b <BSSID> -vv
+```
+This command initiates a brute-force attack against a WPS-enabled wireless router using the specified BSSID.
+
+3. Wireshark
+Wireshark is a popular network protocol analyzer that can be used for analyzing wireless traffic. It allows users to capture and analyze packets in real-time, providing insights into network activity and potential security issues.
+
+Command Example:
+```bash
+wireshark
+```
+This command launches the Wireshark graphical user interface (GUI), allowing users to capture and analyze wireless packets.
+
+4. Fern Wifi Cracker
+Fern Wifi Cracker is a GUI-based wireless security auditing tool that can crack WEP and WPA/WPA2 wireless networks. It automates various attack techniques, including dictionary attacks and brute-force attacks.
+
+Command Example:
+```bash
+fern-wifi-cracker
+```
+This command starts the Fern Wifi Cracker GUI, enabling users to select target wireless networks and launch attacks.
+
+5. Kismet
+Kismet is a wireless network detector, sniffer, and intrusion detection system. It can detect hidden wireless networks, monitor packet activity, and identify potential security threats.
+
+Command Example:
+```bash
+kismet
+```
+This command launches the Kismet GUI, allowing users to perform wireless network discovery and monitoring.
