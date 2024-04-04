@@ -493,4 +493,50 @@ Command Example:
 ```bash
 sudo veil-evasion
 ```
-This command is  is used to launch Veil-Evasion with superuser privileges. Veil-Evasion is a popular post-exploitation framework that specializes in generating payloads to bypass antivirus software and intrusion detection systems (IDS).
+This command is used to launch Veil-Evasion with superuser privileges. Veil-Evasion is a popular post-exploitation framework that specializes in generating payloads to bypass antivirus software and intrusion detection systems (IDS).
+
+# Comprehensive Guide to Digital Forensics with Kali Linux
+
+## Introduction
+Digital forensics involves the collection, preservation, analysis, and presentation of digital evidence for legal or investigative purposes. Kali Linux, a popular distribution for penetration testing and digital forensics, provides a wide range of tools and utilities specifically designed for conducting digital forensics investigations.
+[Tutorial for Digital Forensics](https://youtu.be/QQ9ZLlj36qs?si=1OHvLXN7BP9I4M9K)
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting Digital Forensics.
+
+## Tools and Techniques
+
+### 1. The Sleuth Kit (TSK)
+[The Sleuth Kit](https://www.kali.org/tools/sleuthkit/) These tools are essential for digital forensics investigations, allowing experts to examine filesystems and media in a non-intrusive manner. 
+
+#### Command Example:
+```bash
+fls -r /path/to/image
+```
+This command is used in digital forensics to list all the files and directories within a disk image or file system image.
+
+2. Autopsy
+Autopsy is a cyber forensic tool used for the analysis of Windows and UNIX file systems (NTFS, FAT, FFS, EXT2FS, and EXT3FS). It can also be used to recover deleted files and also show various sectors of uploaded images making it easier to make an in-depth analysis of the image.
+
+Command Example:
+```bash
+autopsy
+```
+This command  is used to launch Autopsy, an open-source digital forensics platform.
+
+3. Volatility
+Volatility is an open-source, cross-platform framework that comes with many useful plugins that provide us very good information from the snapshot of memory.
+
+Command Example:
+```bash
+volatility -f <memory dump> imageinfo
+```
+This command used in digital forensics and incident response for analyzing memory dumps.
+
+4. TestDisk
+TestDisk Tis a powerful data recovery utility available in Kali Linux.
+
+Command Example:
+```bash
+testdisk /dev/sdX
+```
+This command is used to launch TestDisk, a powerful data recovery utility, and specify the disk or storage device (/dev/sdX in this case) that you want to analyze or recover data from.
