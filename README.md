@@ -539,3 +539,82 @@ TestDisk Tis a powerful data recovery utility available in Kali Linux.
 testdisk /dev/sdX
 ```
 This command is used to launch TestDisk, a powerful data recovery utility, and specify the disk or storage device (/dev/sdX in this case) that you want to analyze or recover data from.
+
+# Comprehensive Guide to Reporting Tools with Kali Linux
+
+## Introduction
+Reporting tools are essential for documenting the findings and results of cybersecurity assessments, penetration tests, and digital forensics investigations. Kali Linux, a popular distribution for penetration testing and digital forensics, offers a variety of tools for generating comprehensive reports to communicate findings effectively.
+[Tutorial for Reporting Tools](https://www.youtube.com/watch?v=XXH2p9Tr2vQ)
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting Reporting Tools.
+
+## Tools and Techniques
+
+### 1. Dradis Framework
+[Dradis Framework](https://dradis.com/ce/documentation/install_kali.html) it is a powerful collaboration and reporting platform specifically designed for penetration testers and security professionals. It assists in managing and organizing information gathered during security assessments, such as vulnerability scans, network mapping, and manual testing.
+
+#### Command Example:
+```bash
+sudo service dradis start
+```
+This command is used to start the Dradis Framework service with superuser privileges. Dradis is an open-source collaboration and reporting platform for information security professionals, often used during penetration testing and security assessments.
+
+### 2. Faraday 
+Faraday is an open-source collaborative pentesting and vulnerability management platform.
+
+#### Command Example:
+```bash
+sudo faraday-server
+```
+This command is used to start the Faraday Server with superuser privileges. Faraday is a collaborative penetration testing platform that enables security professionals to manage, share, and collaborate on data gathered during security assessments.
+
+# Comprehensive Guide to Social Engineering Tools with Kali Linux
+
+## Introduction
+Social engineering involves manipulating individuals to divulge confidential information, perform actions, or compromise security. Kali Linux, a popular distribution for penetration testing and digital forensics, provides a variety of tools for conducting social engineering attacks and assessments.
+[Tutorial for Social Engineering Tools](https://youtu.be/NekjERW5PsM?si=zMqPX8wbaPd9UsuS)
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting Social Engineering Tools.
+
+## Tools and Techniques
+
+### 1. Social Engineer Toolkit (SET)
+[Social Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit) is a powerful open-source Python-driven tool designed for penetration testing with a focus on social engineering
+
+#### Command Example:
+```bash
+sudo setoolkit
+```
+This command is used to launch the Social-Engineer Toolkit (SET) with superuser privileges. SET is an open-source penetration testing framework designed for social engineering attacks.
+
+### 2. Beef-XSS
+Beef-XSS  is a powerful browser exploitation framework that can be used to exploit browsers in Kali Linux.
+
+#### Command Example:
+```bash
+sudo beef-xss
+```
+This command is used to launch the Browser Exploitation Framework (BeEF) with superuser privileges. BeEF is an open-source penetration testing tool that focuses on exploiting web browsers, targeting client-side vulnerabilities to gain control over web browsers and their associated systems.
+
+# Comprehensive Guide to Kali & OffSec Links with Kali Linux
+
+## Introduction
+Kali Linux, developed and maintained by Offensive Security (OffSec), is a widely-used Linux distribution designed for digital forensics and penetration testing. Here are some useful links related to Kali Linux and Offensive Security.
+
+## Offensive Security (OffSec) Links:
+
+### 1. Offensive Security Official Website
+[Offensive Security Official Website](https://www.kali.org/) Visit the official website of Offensive Security to learn about their training courses, certifications, and consulting services.
+
+### 2. Offensive Security Training Courses
+Explore the various training courses offered by Offensive Security, including the renowned Penetration Testing with Kali Linux (PWK) course.
+
+### 3. Offensive Security Certifications
+Learn about the certifications provided by Offensive Security, such as the Offensive Security Certified Professional (OSCP) and Offensive Security Certified Expert (OSCE).
+
+### 4. OffSec Community
+Engage with the OffSec community, participate in discussions, and access resources such as blogs, webinars, and newsletters.
+
+### 5. Offensive Security Blog
+Stay updated with the latest news, insights, and announcements from Offensive Security through their official blog.
+
