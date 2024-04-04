@@ -514,10 +514,10 @@ fls -r /path/to/image
 ```
 This command is used in digital forensics to list all the files and directories within a disk image or file system image.
 
-2. Autopsy
+### 2. Autopsy
 Autopsy is a cyber forensic tool used for the analysis of Windows and UNIX file systems (NTFS, FAT, FFS, EXT2FS, and EXT3FS). It can also be used to recover deleted files and also show various sectors of uploaded images making it easier to make an in-depth analysis of the image.
 
-Command Example:
+#### Command Example:
 ```bash
 autopsy
 ```
